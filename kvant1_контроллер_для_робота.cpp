@@ -9,8 +9,8 @@ using namespace std;
 
 int main(int argc, char **argv) {
   Robot *robot = new Robot();
-  Motor *left_motor = robot->getMotor("wheel2 motor");
-  Motor *right_motor = robot->getMotor("wheel1 motor"); 
+  Motor *left_motor = robot->getMotor(" left wheel motor");
+  Motor *right_motor = robot->getMotor("right wheel motor"); 
   
   left_motor->setPosition(INFINITY);
   right_motor->setPosition(INFINITY);
